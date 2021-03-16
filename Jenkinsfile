@@ -1,5 +1,5 @@
 pipeline {
-	agent {  label 'master' }
+	agent {  label 'ec2-rhel-node' }
 	stages {
 		stage('---clean---'){
 			steps {
